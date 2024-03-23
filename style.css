@@ -1,0 +1,56 @@
+.gradient {
+    height: 729px; /* Тут высота блока */
+    background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
+    animation: gradient 20s infinite linear; /* 10s - скорость анимации */
+    background-size: 400%; /* Можно менять и подбирать интенсивность */
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0px;
+    height: 80px;
+}
+
+.logo {
+    max-height: 70px;
+    margin: 0 auto;
+    background: url(images/101png.png) rgba(0, 0, 0, 0),
+                url(images/default-profile-picture.jpg) rgba(0, 0, 0, 0);
+}
+
+.greeting {
+    text-align: center;
+    color: aliceblue;
+    width: 500px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.profile-picture {
+    max-height: 70px;
+    margin: 0 auto;
+}
+
+form {
+    text-align: center;
+    background-color: rgb(21, 21, 21);
+    margin: 50px;
+    border-radius: 5px;
+}
