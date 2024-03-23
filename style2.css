@@ -48,9 +48,57 @@
     margin: 0 auto;
 }
 
-form {
-    text-align: center;
-    background-color: rgb(21, 21, 21);
+.header-profile {
+    display: flex;
+    background-color: black;
+    border-radius: 25px;
     margin: 50px;
+    justify-content:space-between;
+}
+
+.left-header-profile {
+    display: flex;
+}
+
+.ava {
+    max-height: 350px;
+    padding: 20px;
+}
+
+.profile-info {
+    color: aliceblue;
+    font-size: 150%;
+    flex-direction: column;
+}
+
+.friends {
+    color: aliceblue;
+    background-color: rgb(46, 46, 46);
     border-radius: 5px;
+    width: 300px;
+    padding: 5px;
+    margin: 7px;
+    font-size: 120%;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 25px;
+    margin: 50px;
+}
+
+.rating-header {
+    background-color: gray;
+    width: 1200px;
+    padding: 25px;
+    font-size: 225%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.anime-rating {
+    
 }
