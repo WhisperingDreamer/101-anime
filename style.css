@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(to right, rgb(177, 173, 173), rgb(239, 252, 255));
+}
+
+h1, p {
+    text-align: center;
+}
+
+img {
+    max-width: 475px;
+    text-align: center; /* Я хз почему это не работает на изображение */
+    display: block;     /* Теперь понял */
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.item2 {
+    order: 1;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.vk {
+    color:chocolate;
+}
+
+.vk:hover {
+    color:blueviolet ;
+}
+
+.helping {
+    text-decoration: line-through;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+li:hover {
+    color: green;
+}
+
+.mem:hover {
+    color: yellow;
+}
+
+.mem2:hover {
+    color: yellowgreen;
+}
+
+.mem3:hover {
+    color: green;
+}
