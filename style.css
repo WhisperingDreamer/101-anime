@@ -1,8 +1,9 @@
 .gradient {
-    height: 729px; /* Тут высота блока */
+    height: 100vh; /* Тут высота блока */
     background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
     animation: gradient 20s infinite linear; /* 10s - скорость анимации */
     background-size: 400%; /* Можно менять и подбирать интенсивность */
+    margin: 0px;
 }
 
 @keyframes gradient {
@@ -53,4 +54,16 @@ form {
     background-color: rgb(21, 21, 21);
     margin: 50px;
     border-radius: 5px;
+}
+
+select {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 35px;
+    margin: 15px;
+    background-color: rgb(47, 47, 47);
+    border-color: gray ;
+    color: aliceblue;
+    border-radius: 10px;
+    border-width: 3px;
+    text-align: center;
 }

@@ -1,4 +1,6 @@
-https://whisperingdreamer.github.io/101-anime/index.html
+Just a site for practice
 
-Just for fun.
-At least now...
+Anime site with account system
+
+Contact if you want:
+  Telegram: https://t.me/Starlight_best

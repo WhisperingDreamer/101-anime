@@ -1,8 +1,9 @@
 .gradient {
-    height: 729px; /* Тут высота блока */
+    height: 100%; /* Тут высота блока */
     background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
     animation: gradient 20s infinite linear; /* 10s - скорость анимации */
     background-size: 400%; /* Можно менять и подбирать интенсивность */
+    margin: 0px;
 }
 
 @keyframes gradient {
@@ -92,13 +93,13 @@
 
 .rating-header {
     background-color: gray;
-    width: 1200px;
+    width: 300px;
     padding: 25px;
+    padding-left: 35%;
+    padding-right: 35%;
+    margin-left: 50px;
+    margin-right: 50px;
     font-size: 225%;
     text-align: center;
     border-radius: 5px;
-}
-
-.anime-rating {
-    
 }
